@@ -1,0 +1,49 @@
+<html>
+
+    <head>
+        <title>
+            First p5.js page
+        </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+        <script>
+            function setup()
+            {
+                createCanvas(400,400);
+            }
+            function draw()
+            {
+                background(000);
+                stroke(0, 255, 51); text('Hair In My Eyes',10,30);
+                stroke(0, 255, 51); text('Neil Wells',315,386);
+                noStroke(); 
+                
+                fill(232,214,174); rect(130,100,120,180);  rect(166,265,50,60); 
+                fill(0, 255, 217); rect(123,305,120,180);
+                fill(255, 130, 211); triangle(196, 203, 202, 175, 225, 203);
+                stroke(000); fill(000); line(190,166,220,166); line(141,158,119,154);
+                noStroke(); fill(158,249,255); circle(168,163,60); circle(238,163,60);
+                fill(240, 120, 120); ellipse(190,230,40,10); 
+                strokeWeight(2); stroke(255, 179, 148); point(182,210); point(188,198); point(172,198); 
+                noStroke();
+                fill(163, 120, 0); beginShape();
+                vertex(194, 105);
+                vertex(124, 335);
+                vertex(90, 186);
+                vertex(91, 140);
+                vertex(140, 87);
+                vertex(196,87);
+                vertex(227,94);
+                vertex(265,100);
+                vertex(275,194);
+                vertex(270,217);
+                vertex(262,247);
+                vertex(256,287);
+                endShape(CLOSE);
+
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
